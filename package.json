@@ -1,0 +1,10 @@
+{
+  "name": "masar-one-responder-dashboard",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Bilingual twelve-case Masar One frontend preview, before BLE integration",
+  "scripts": {
+    "check": "node --check dist/app.js && node --check dist/gateway.js",
+    "test": "node tests/simulation.test.cjs && node tests/gateway.test.cjs"
+  }
+}
